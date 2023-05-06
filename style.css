@@ -1,0 +1,176 @@
+html,body{
+    min-height: 100%;
+}
+
+body{
+    font-family: 'Inter', sans-serif;;
+    margin: 0;
+    background-image: linear-gradient(to top right, rgb(86, 84, 224), rgb(43, 193, 222));
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+.navbar{
+    color: #ffff;
+    font-weight: 300;
+    padding-top: 30px;
+    line-height: 4px;
+}
+
+.page-title{
+    margin-left: 26.4%;
+    font-size: 11px;
+}
+
+.nav-list-item:nth-child(2){
+    padding-left: 16.7%;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list-item{
+    padding-left: 1.1%;
+}
+
+.nav-list-item a {
+    font-size: 9px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.nav-button{
+    margin-left: 1.2%;
+    color: rgb(199, 243, 255);
+    border: 0.5px solid rgb(199, 243, 255);
+    cursor: pointer;
+    border-radius: 2.5px;
+    font-size: 9px;
+    margin-top: -8px;
+    padding: 5px 12px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.main-section{
+    margin-left: 160px;
+    margin-top: 10%;
+    display: flex;
+}
+
+.page-heading{
+    font-size: 36px;
+}
+
+.page-info{
+    font-size: 11px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.page-info a{
+    color: rgb(164, 197, 252);
+    text-decoration: none;
+}
+
+.left-section{
+    white-space: pre-line;
+    color: aliceblue;
+    margin-left: 20%;
+}
+
+.page-btn{
+    background-color: rgb(0, 200, 75);
+    border-radius: 18px;
+    border: 1px solid rgb(0, 200, 75);
+    color: aliceblue;
+    font-size: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 8px 21px;
+}
+
+
+.right-section{
+    float: right;
+    position: absolute;
+    left: 51.5%;
+}
+
+.signup-section{
+    height: 264px;
+    width: 198px;
+    border-radius: 2px;
+    background-color: #ffff;
+    text-align: center;
+    box-shadow: 0px 0px 15px 15px rgba(44, 44, 44, 0.123); 
+    padding: 20px 20px;
+}
+
+.clip{
+    background: rgb(241, 245, 253);
+    margin-top: 10%;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    padding: 10rem 20%;
+}
+
+.signup-title{
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.input-details{
+    border-radius: 2px;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);;
+    height: 26px;
+    width: 186px;
+}
+
+select-input-details{
+    height: 30px;
+    width: 296px;
+}
+
+.register-btn{
+    background-color: rgb(30, 130, 255);
+    border: 1.5px solid rgb(23, 112, 223);
+    width: 186px;
+    margin-top: 10px;
+    color: #ffff;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0px 8px 8px 0px rgb(199, 220, 254); 
+}
+
+::placeholder{
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+#NameError, #EmailError, #MailError, #DropdownError{
+    font-size: 9px;
+}
+
+#NameError, #EmailError, #MailError, #ErrorMessage, #DropdownError{
+    margin: 0;
+    padding: 0;
+    color: red;
+    height: 12px;
+}
+
+#ErrorMessage{
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.input-elements{
+    margin: 0;
+}

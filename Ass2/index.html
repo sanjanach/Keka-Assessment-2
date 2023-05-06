@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="page-container">
+        <nav class="navbar">
+            
+            <ul class="nav-list">
+                <span class="page-title">Landing</span>
+                <li class="nav-list-item" id="home-nav-item"><a href="">Home</a></li>
+                <li class="nav-list-item"><a href="">Features</a></li>
+                <li class="nav-list-item"><a href="">Reviews</a></li>
+                <li class="nav-list-item"><a href="">Pricing</a></li>
+                <li class="nav-list-item"><a href="">FAQ</a></li>
+                <button class="nav-button">Get Started</button>
+            </ul>
+            
+        </nav>
+    
+        <div class="main-section">
+            <div class="left-section">
+                <div class="page-heading">Fly makes you 
+                    faster
+                </div>
+                <p class="page-info">New free template by <a href="">uicookies.com</a>. For more 
+                templates visit the <a href="">site</a>. Lorem ipsum dolor sit amet, 
+                consectetur edipisicing elit.</p>
+                <button class="page-btn">See Pricing</button>
+            </div>
+        
+            <div class="right-section">
+                <div class="signup-section">
+                    <div class="signup-title">Sign Up For Free</div>
+                    <form name = "signupform" action="">
+                        <div id="NameError"></div>
+                        <div class="input-elements"><input class="input-details" type="text" name="username" id="InputName" placeholder="Full name"></div>
+                        <div id="EmailError"></div>
+                        <div class="input-elements"><input class="input-details" type="text" name="useremail" id="InputEmail" placeholder="Email" onkeyup="ValidateEmail(); ValidateAll()"></div>
+                        <div id="MailError"></div>
+                        <div class="input-elements"><input class="input-details" type="text" name="usermail" id="InputMail" placeholder="Email" onkeyup="ValidateMail(); ValidateAll()"></div>
+                        <div id="DropdownError"></div>
+                        <div><select onchange="ValidateDropdown()" class="input-details" name="" id="Dropdown">
+                            <option class="" value="Type">Type</option>
+                            <option value="type">option1</option>
+                            <option value="">option2</option>
+                            <option value="">option3</option>
+                            <option value="">option4</option>
+                        </select></div>
+                        <div><button  class="register-btn">Register</button></div>
+                        <div id="ErrorMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="clip">
+
+        </div>
+    
+    </div>
+
+</body>
+</html>
